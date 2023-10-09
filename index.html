@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BATYA WIKI</title>
+    <meta name="description" content="">
+    <link rel="canonical" href="https://www.nameagency.com">
+    <meta property="og:url" content="https://www.nameagency.com">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./IGOREK/DSCN1586.JPG" type="image/x-icon">
+    <!-- Енто все для иконки сжатой панели -->
+    <link rel="shortcut icon" href="./ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./images/ico/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="./images/ico/apple-touch-icon-57.png">
+
+    <!-- Шрифтики -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    [data-title] {
+     cursor: help; /* Меняем курсор на справочный */
+   }
+   [data-title]::after {
+     content: attr(data-title); /* Выводим текст из атрибута data-title */
+     position: absolute; /* Абсолютное позиционирование */
+     left: 0; top: 1em; /* Положение подсказки */
+     opacity: 0; /* Скрываем подсказку, делая её прозрачной */
+     transition: 0.5s; /* Время появления подсказки */
+     pointer-events: none; /* Подсказка не реагирует на курсор */
+     background: rgba(57, 137, 201, 0.9); /* Синий цвет фона */
+     color: #fff; /* Белый цвет текста */
+     padding: 0.5em; /* Поля вокруг текста */
+   }
+   [data-title]:hover::after {
+     opacity: 1; /* Показываем подсказку */
+   }
+  </style>
+  <body>
+    <!-- Navbar Menu  ---->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand" href="#banner">
+           <h1 class="sitename">БАТЯПЕДИЯ</h1>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa fa-bars"></i>
+         </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item non">
+              <a class="nav-link" href="#services">КТО ЗДЕСЬ?!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Gab"><span>СПАСИБО!!!</span></a>
+            </li>
+            <li class="nav-item non">
+              <a class="nav-link" href="#V1">ДОСЬЕ</a>
+            </li>
+            <li class="nav-item non">
+              <a class="nav-link" href="#Otzyv">ОТЗЫВЫ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!--- Banner Hero section ------->
+    <section class="banner" id = "banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <h3>ИНТЕРАКТИВНЫЙ САЙТ</h3>
+            <p>
+               Комочек знаний, которыми я могу поделиться. Сей шедевр посвящен моему отцу. Можно открывать со всех устройств. Наведитесь на <b>картиночки</b> для красивых
+                <abbr data-title="Если некоторые анимации/аудио не работают, пожалуйста, нажмите пкм по любому месту страницы, выберите 'просмотреть код элемента' а затем закройте всплывшее справа окно. Если не работает с мобилы: сочувствую.">ЭФФЕКТИКОВ</abbr></p>
+              <img src="./IGOREK/Garry26.jpg" class="img-fluid" alt="">
+            </div>
+ <!--- Services ---->
+ <section id="services">
+  <div class="container text-center">
+    <h3 class="title text-center">Что у нас есть?</h3>
+    <div class="row text-center">
+      <div class="col-md-4 services">
+        <img onmouseover="playSound1()" src="./IGOREK/DSC_2892.JPG" class="service-img simg1"   alt="">
+        <audio id="sound1">
+          <source src="./sounds/chainsaw-start-idle-stop_m1o2n_no.mp3" type="audio/mpeg">
+        </audio>
+        <h4>БЕНЗОБАТЯ</h4>
+        <p><b>ЧЖЧЖЧЖЧЖЖЖЖЖ</b> извините. Но круто же выглядит, да?
+        </p>
+      </div>
+      <div class="col-md-4 services">
+        <img onmouseover="playSound2()" src="./IGOREK/DSC_5241_2.JPG" class="service-img simg2"   alt="">
+        <audio id="sound2">
+          <source src="./sounds/43bdd5ee5d8bd1f.mp3" type="audio/mpeg">
+        </audio>
+        <h4>МОГУЧИЙ БАТЯ</h4>
+        <p>Ух. Ща кааааааааааак <b>треснет!</b>
+        </p>
+      </div>
+      <div class="col-md-4 services">
+        <img onmouseover="playSound3()" src="./IGOREK/DSC_8363.JPG" class="service-img simg3"   alt="">
+        <audio id="sound3">
+          <source src="./sounds/mr-krabs-walking.mp3" type="audio/mpeg">
+        </audio>
+        <h4>КРАБАТЯ</h4>
+        <p>Может дать <b>краба</b>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+    <!---  Archangel  --->
+    <section id="Gab">
+      <div class="container">
+        <h3 class="title text-center">Спасибо за</h3>
+        <div class = "wrapper">
+          <!-- <div class = "card_menu"></div> -->
+          <div class = "card_menu card1"><a class ="wraptext">ПрИкОлЫ&#129322;</a></div>
+          <div class = "card_menu card2"><a class ="wraptext">Крутость&#128526;</a></div>
+          <div class = "card_menu big card3"><a class ="wraptext">Любофф&#128525;</a></div>
+          <div class = "card_menu med card4"><a class ="wraptext">Путешествия	&#127757;</a></div>
+        </div>
+      </div>
+    </section>
+
+        <!---  Clonket  --->
+        <section id="V1">
+          <div class="container">
+            <h3 class="title text-center">ДОСЬЕ: КАПУСТИН ИГОРЬ</h3>
+            <p class="mrgt10 descript">
+              Освободитель Земли от демонов с Марса, уничтожитель террористов/культистов/злых племен, может в одиночку заменить весь экипаж гусеничного танка, победил фашистов в параллельной вселенной, великий ордынец, сразивший Альянс, управленец рейдовых походов на монструозных чудовищ.
+            </p>
+              <div class="row offset-1">
+                <div class="col-lg-4 col-md-5 testimonials">
+                <h2>Плюсы</h2>
+                <p class="feedback">&#9989;Техноманьяк
+                </p>
+                <p class="feedback">&#9989;Когда-нибудь похудеет.
+                </p>
+                <p class="feedback">&#9989;Провел бета-тест велика
+                </p>
+              </p>
+              </div>
+              <div class="col-lg-4 col-md-5 testimonials">
+                <h2>Минусы</h2>
+                <p class="feedback">
+                  &#9940;Избил сына подушкой(
+                </p>
+                <p>
+                  &#9940;Не умеет группироваться при падении с велика
+              </div>
+              <div class="col-lg-2 col-md-5 testimonials no-bord">
+                <img src="./IGOREK/DSCN2962.JPG" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+            <!---  Otzyv Section  --->
+    <section id="Otzyv">
+      <div class="container">
+        <main>С ЮБИЛЕЕМ, ПАПКА!</main>
+        <div class="row offset-1">
+          <div class="col-md-4 Otzyv">
+            <p class="feedback">"Регулярно кормяу."
+              <b>★★★★★</b>
+            </p>
+            <img src="./IGOREK/IMG-20161213-WA0007.jpg" class="imjotz" alt="">
+            <p class="user-details"><b>Клеопатра</b><br>Кися</p>
+          </div>
+          <div class="col-md-4 Otzyv">
+            <p class="feedback">"У меня лапки"
+              <b>★★★★★</b>
+            </p>
+            <img src="./IGOREK/IMG-20230114-WA0061.jpg" class="imjotz" alt="">
+            <p class="user-details"><b>Рей</b><br>Дубина</p>
+            
+          </div>
+          <div class="col-md-4 Otzyv">
+            <p class="feedback">"Горжусь"
+              <b>★★★★★</b>
+            </p>
+            <img src="./IGOREK/CE_YA.jpg" class="imjotz" alt="">
+            <p class="user-details"><b>Владечка</b><br>Сынко</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--- Smooth Scroll js ---------->
+    <script type="text/javascript" src="./smooth-scroll.js"></script>
+  </body>
+</html>

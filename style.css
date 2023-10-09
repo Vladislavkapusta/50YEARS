@@ -1,0 +1,569 @@
+
+*{margin: 0;padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+font-size: 25px;}
+
+body{
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+   background: url("./IGOREK/IMG_20230717_181219.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-attachment:fixed
+  }
+
+#nav-bar{position: sticky;top: 0;z-index: 10;}
+.navbar{background: linear-gradient(to right, #1723b1,#020424);padding: 0 !important; }
+/* Logo resize */
+.navbar-brand{height: 3rem;padding-left: 3rem; margin-left: 5px; margin-top: 5px;}
+.navbar-nav{margin-right: 3rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav .nav-item .nav-link{color: #fff !important; font-weight: 600; float: right; text-align: left; color:#fff; font-size: 15px;}
+.navbar-nav .nav-item .nav-link:hover{color: #ffffff!important;transform: translateY(-10px) scale(1.2);transition: transform 0.5s;}
+.fa-bars{color: #fff !important; font-size: 25px !important;}
+.navbar-toggler{outline: none !important; margin-right: 10px;}
+.descript{
+  text-align: center;
+}
+abbr{
+  transition: all 0.5s;
+  -webkit-text-stroke: 1px #d6f4f4;
+  font-variation-settings: "wght" 100, "ital" 1;
+  font-size: 40px;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  text-shadow: 10px 10px 0px #07bccc,
+    15px 15px 0px #e601c0,
+    20px 20px 0px #e9019a,
+    25px 25px 0px #f40468,
+    45px 45px 10px #482896;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+abbr:hover{
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+}
+h3{
+  margin: 0 auto;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #d88a0c 0%,
+    #107a2e 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+      font-size: 190px;
+}
+p{
+  font-size: 40px;
+}
+b{
+  font-size: 40px;
+}
+.sitename{
+  color:#fff;
+  font-size: 40px;
+}
+/* --------- Banner ---------- */
+.banner{background: linear-gradient(to right, transparent,black);color: #fff; padding-top: 5%;}
+.promo-title{font-size: 3rem; font-weight: 600; margin-top: 3em;}
+.join-title{font-size: 1.44rem;}
+.link-play{text-decoration: none;}
+.link-play:hover{color: #58f0ff;text-decoration: none!important;}
+.play-btn{width: 45px;margin: 20px 0;margin-right: 2em;text-decoration: none !important;transition: transform 1.2s;}
+.play-btn:hover{color: #444;text-decoration: none!important;transform: scale(1.2);}
+.banner a{color: #fff; text-decoration: none!important;}
+.img-fluid{margin-top: 4rem; width: 120%;}
+.img-fluid:hover{transform:scale(1.1);
+  transition: all 0.5s ease-in-out;
+  box-shadow: blue 0px 0px 0px 2px inset, transparent 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, transparent 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, transparent 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, transparent 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+  background-color:aliceblue;}
+.bottom-img{width: 100%;}
+/* ---------- Services --------- */
+#services{padding: 50px 0;}
+.service-img{width: 100%; height: auto; margin-top: 2rem;}
+.services{padding: 20px;}
+.services h4{padding: 1em; margin-top: 5px; text-transform: uppercase;}
+.game-title{font-size: 40px;}
+.title::after{
+  content: '';
+  background: linear-gradient(to right, #1723b1,#58f0ff);
+  height: 8px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 70px;
+  transform: translateY(5px);}
+#services .btn-primary{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 20px;
+  background: linear-gradient(to right, #1723b1,#58f0ff);
+  transition: transform 1.2s;
+}
+#services .btn-primary:hover{transform: scale(1.2);}
+/* -----------   About -------------*/
+#about{padding-bottom: 3rem; padding-top: 3rem;}
+.about-title{font-size: 1.6em; margin-top: 8%; font-weight: 600;}
+#about ul li{margin: 10px 0;}
+#about ul{margin-left: 20px;}
+/* ------- Testimonials Section -----*/
+#services{padding-top: 20vh;}
+#Gab{margin: 100px 0; padding-top: 10vh;}
+#V1{margin: 100px 0; padding-top: 10vh;}
+#Chesstempo{margin: 100px 0; padding-top: 10vh;}
+#Chessbase{margin: 100px 0; padding-top: 10vh;}
+#Chessclock{margin: 100px 0; padding-top: 10vh;}
+
+.testimonials{border-left: 3px solid #1723b1; padding-left: 20px 0; margin: 20px 0; display: flex; flex-direction: column; }
+
+.testimonials img{height: 300px;width: 200px; margin: 0 auto;}
+.user-details{display: inline-block;font-size: 12px;}
+.feedback{font-style: italic;}
+/* Otzyv section */
+#Otzyv{margin: 0 auto; padding-top: 10vh; box-sizing: border-box;justify-content:space-between; display: flex;width: 100%;}
+.Otzyv{border-left: 3px solid #1723b1; padding-left: 20px 0; margin: 20px 0; display: flex; flex-direction: column;}
+/* ----- Footer ------*/
+/* #footer{background: linear-gradient(to right, #1723b1,#58f0ff); color: #fff;}
+.footer-img{width: 100%;}
+.footer-box{padding: 20px;}
+.footer-box img{width: 4rem; margin-bottom: 20px;}
+.footer-box .fa{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.footer-box .form-control{box-shadow: none !important; border: none; border-radius: 0; margin: 20px 0;}
+.footer-box .btn-primary{
+  box-shadow: none !important;
+  width: 8rem;
+  border: none; border-radius: 50px;
+  background: linear-gradient(to right, #1723b1,#58f0ff);
+  color: #fff;transition: transform 1.2s;
+}
+.footer-box .btn-primary:hover{transform: scale(1.2); color: #fff;} */
+/*-------- Social Media icons ---------- */
+#social p{font-weight: 600; font-size: 16px; margin-top: 20px;}
+#social .social-icons .svg-icons img{width: 23px;transition: transform .7s;margin-right: 1rem;}
+#social .social-icons .svg-icons img:hover{transform: scale(1.2);}
+.copyright{padding-top: 2%; font-size: 15px;}
+.copyright a{text-decoration: none;color: #fff;}
+.copyright a:hover{text-decoration: none;color: #1723b1;}
+/*-------- Atomic ---------- */
+.mrgt10{
+  margin-top: 10px;
+}
+.no-bord{
+  border: none;
+}
+
+
+/* FOOTER FR FR*/
+.footer {
+  margin-top:200px ;
+position: relative;
+width: 100%;
+background-color: #111E27;
+background: #3586ff;
+min-height: 100px;
+max-height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.social-icon,
+.menu {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+list-style: none;
+margin: 10px;
+}
+
+.social-icon__link {
+font-size: 2rem;
+color: #fff;
+margin: 0 10px;
+display: inline-block;
+transition: 0.5s;
+}
+.social-icon__link:hover {
+transform: translateY(-10px);
+}
+
+.menu__link {
+font-size: 1.2rem;
+color: #fff;
+margin: 0 10px;
+display: inline-block;
+transition: 0.5s;
+text-decoration: none;
+opacity: 0.75;
+font-weight: 300;
+}
+
+.menu__link:hover {
+opacity: 1;
+}
+
+.footer p {
+color: #fff;
+margin: 15px 0 10px 0;
+font-size: 1rem;
+font-weight: 300;
+}
+
+.imjotz{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+
+/* ------------------------------------------------------o_X--------------------------------------------------------------- */
+.secret{
+max-width: 20px;
+max-height: 20px;
+visibility:hidden;
+}
+
+
+/* ------------------------------------------------------ATOMIC------------------------------------------------------------ */
+.mrgl30{
+margin-left: 30px;
+}
+.r30{
+left: 0;
+}
+.red{
+  color: red
+}
+.fs40{
+  font-size: 40px;
+}
+/* Дурачусь */
+span{
+  font-weight: bold;
+  background-image: linear-gradient(
+ to right,
+ #462523 0,
+        #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #462523 100%
+ );
+  color:transparent;
+  -webkit-background-clip:text;
+  margin-bottom: 10px;
+}
+.non{
+  margin-top: 10px;
+}
+/* КАРТОЧКИ */
+.card_menu{
+  position: relative;
+  background-color:forestgreen;
+  width: 270px;
+  padding: 10px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  margin: 10px;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-content: center;
+  text-align: center;
+color: transparent;
+transition: all 0.5s ease; /*- чтобы при наведении на кнопку, цвет кнопки менялся плавно*/
+display: flex;
+}
+.card_menu:hover{
+  animation: 2s counterclockwise infinite;
+}
+.wrapper{
+background-color: aquamarine;
+  height: 41vh;
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: repeat(2,auto);
+  background-color: transparent;
+}
+.card1{
+background: url(./IGOREK/DSC_6563.JPG) no-repeat bottom / cover;
+}
+.card1:hover{
+color: black;
+font-size: 30px;
+transform: scale(1.1,1.1);
+background: linear-gradient(to right, #91919f,#8d8d9a), url(./IGOREK/DSC_6563.JPG) no-repeat bottom / cover;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+.card1:hover .wraptext{
+opacity: 1;
+}
+.card2{
+background: url(./IGOREK/00683cf3-d458-4f9a-b225-cf5e49010bd4.jpg) no-repeat center / cover;
+}
+.card2:hover{
+color: black;
+font-size: 30px;
+transform: scale(1.1,1.1);
+background: linear-gradient(to right, #91919f,#8d8d9a), url(./IGOREK/00683cf3-d458-4f9a-b225-cf5e49010bd4.jpg) no-repeat center / cover;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+.card2:hover .wraptext{
+opacity: 1;
+}
+.card4{
+background: url(./IGOREK/opel5.jpg) no-repeat center / cover;
+}
+.card4:hover{
+color: black;
+font-size: 30px;
+transform: scale(1.1,1.1);
+background: linear-gradient(to right, #91919f,#8d8d9a), url(./IGOREK/opel5.jpg) no-repeat center / cover;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+.card4:hover .wraptext{
+opacity: 1;
+}
+.card3{
+background: url(./IGOREK/DSC_1349.JPG) no-repeat center / cover;
+}
+.card3:hover{
+color: black;
+font-size: 30px;
+transform: scale(1.1,1.1);
+background: linear-gradient(to right, #91919f,#8d8d9a), url(./IGOREK/Garyki98_1.jpg) no-repeat center right / cover;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+.card3:hover .wraptext{
+opacity: 1;
+}
+.med{
+	grid-column: span 2;
+	width: 560px;
+}
+.big{
+	grid-column: span 2;
+	grid-row: span 2;
+	width: 400px;
+	height: 42vh;
+}
+.wraptext{
+  font-size: 40px;
+	color: black;
+	opacity: 0;
+	margin: 0 auto;
+	align-self: center;
+	font-style:unset;
+}
+
+@font-face {
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+    format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+  font-weight: normal;
+}
+
+main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #d6f4f4;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 5rem;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  text-shadow: 10px 10px 0px #07bccc,
+    15px 15px 0px #e601c0,
+    20px 20px 0px #e9019a,
+    25px 25px 0px #f40468,
+    45px 45px 10px #482896;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+main:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+}
+
+/* КЕЙФРЕЙМСЫ МОИ КЕЙФРЕЙМСЫ */
+.simg1:hover {
+  animation: shake 0.5s;
+}
+.simg2:hover{
+  transition: all 0.5s ease-in-out;
+  transform: rotate(360deg);
+}
+
+.simg3:hover {
+  transition: all 1s ease-in-out;
+  transform: translateX(200%) translateX(200%);
+
+}
+
+
+@keyframes clockwise {
+  0% {
+    top: -5px;
+    left: 0;
+  }
+  12% {
+    top: -2px;
+    left: 2px;
+  }
+  25% {
+    top: 0;
+    left: 5px;    
+  }
+  37% {
+    top: 2px;
+    left: 2px;
+  }
+  50% {
+    top: 5px;
+    left: 0;    
+  }
+  62% {
+    top: 2px;
+    left: -2px;
+  }
+  75% {
+    top: 0;
+    left: -5px;
+  }
+  87% {
+    top: -2px;
+    left: -2px;
+  }
+  100% {
+    top: -5px;
+    left: 0;    
+  }
+}
+
+@keyframes counterclockwise {
+  0% {
+    top: -5px;
+    right: 0;
+  }
+  12% {
+    top: -2px;
+    right: 2px;
+  }
+  25% {
+    top: 0;
+    right: 5px;    
+  }
+  37% {
+    top: 2px;
+    right: 2px;
+  }
+  50% {
+    top: 5px;
+    right: 0;    
+  }
+  62% {
+    top: 2px;
+    right: -2px;
+  }
+  75% {
+    top: 0;
+    right: -5px;
+  }
+  87% {
+    top: -2px;
+    right: -2px;
+  }
+  100% {
+    top: -5px;
+    right: 0;    
+  }
+
+}
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  10% { transform: translate(-10px, 0); }
+  20% { transform: translate(10px, 0); }
+  30% { transform: translate(-10px, 0); }
+  40% { transform: translate(10px, 0); }
+  50% { transform: translate(-10px, 0); }
+  60% { transform: translate(10px, 0); }
+  70% { transform: translate(-10px, 0); }
+  80% { transform: translate(10px, 0); }
+  90% { transform: translate(-10px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+	.marble {
+		text-align: center;
+	}
+	.wrapper{
+		display: flex;
+		flex-wrap: wrap;
+    margin-bottom: 3vh;
+	}
+  main{
+    font-size: 30px;
+  }
+  .card_menu{
+    width: auto;
+  }
+  .med{
+    width: auto;
+  }
+  .big{
+    width: auto;
+  }
+
+}
